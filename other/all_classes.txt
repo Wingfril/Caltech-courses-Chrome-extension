@@ -1,0 +1,2638 @@
+ACM 105
+ACM 11
+ACM 190
+ACM 201
+ACM 210
+ACM 256
+ACM 257
+ACM 270
+ACM 300
+ACM 9
+ACM/CS/EE/IDS 158
+ACM/CS/IDS 114
+ACM/CS/IDS 157
+ACM/EE 106a
+ACM/EE 106b
+ACM/EE/IDS 116
+ACM/EE/IDS 170
+ACM/EE/IDS 217
+ACM/IDS 101
+ACM/IDS 101a
+ACM/IDS 101b
+ACM/IDS 104
+ACM/IDS 154
+ACM/IDS 204
+ACM/IDS 213
+AM 200
+AM 201
+AM 300
+AM/ACM 127
+AM/CE 151a
+AM/CE 151b
+AM/CE/ME 150a
+AM/CE/ME 150b
+AM/CE/ME 150c
+AM/ME 165
+APh 100
+APh 109
+APh 110
+APh 114a
+APh 114b
+APh 114c
+APh 150
+APh 156a
+APh 156b
+APh 156c
+APh 17a
+APh 17b
+APh 17c
+APh 190a
+APh 190b
+APh 190c
+APh 2
+APh 200
+APh 23
+APh 24
+APh 250
+APh 300
+APh 77b
+APh 77c
+APh/EE 130
+APh/EE 132
+APh/EE 183
+APh/EE 9a
+APh/EE 9b
+APh/MS 105a
+APh/MS 105b
+APh/MS 105c
+APh/MS 256
+APh/Ph 115
+APh/Ph/Ae 116
+Ae 100
+Ae 103a
+Ae 103b
+Ae 105a
+Ae 105b
+Ae 105c
+Ae 115a
+Ae 115b
+Ae 121a
+Ae 121b
+Ae 121c
+Ae 150a
+Ae 150b
+Ae 150c
+Ae 159
+Ae 200
+Ae 201a
+Ae 204a
+Ae 204b
+Ae 205a
+Ae 205b
+Ae 208a
+Ae 208b
+Ae 208c
+Ae 220
+Ae 228
+Ae 233
+Ae 234a
+Ae 234b
+Ae 235
+Ae 237a
+Ae 237b
+Ae 239a
+Ae 239b
+Ae 240
+Ae 241
+Ae 244
+Ae 250
+Ae/ACM/ME 232a
+Ae/ACM/ME 232b
+Ae/ACM/ME 232c
+Ae/AM/CE/ME 102a
+Ae/AM/CE/ME 102b
+Ae/AM/CE/ME 102c
+Ae/AM/CE/ME 214a
+Ae/AM/CE/ME 214b
+Ae/AM/ME 215
+Ae/AM/ME 223
+Ae/AM/ME/Ge 225
+Ae/AM/MS/ME 213
+Ae/APh 104a
+Ae/APh 104b
+Ae/APh 104c
+Ae/APh/CE/ME 10
+Ae/APh/CE/ME 101a
+Ae/APh/CE/ME 101b
+Ae/APh/CE/ME 101c
+Ae/BE 242
+Ae/CDS/ME 251a
+Ae/CDS/ME 251b
+Ae/CE 165a
+Ae/CE 165b
+Ae/CE 221
+Ae/Ge/ME 160a
+Ae/Ge/ME 160b
+Ae/ME 118
+Ae/ME 120a
+Ae/ME 120b
+Ae/ME 218
+An 101
+An 135
+An 14
+An 15
+An 150
+An 2
+An 97
+An/PS 127
+An/SS 142
+Art 169
+Art 70
+Art 71
+Ay 1
+Ay 101
+Ay 102
+Ay 105
+Ay 111a
+Ay 119
+Ay 121
+Ay 122a
+Ay 122b
+Ay 122c
+Ay 123
+Ay 124
+Ay 125
+Ay 126
+Ay 127
+Ay 141a
+Ay 141b
+Ay 141c
+Ay 142
+Ay 143
+Ay 190
+Ay 20
+Ay 21
+Ay 211
+Ay 215
+Ay 218
+Ay 219
+Ay 30
+Ay 31
+Ay 43
+Ay 78a
+Ay 78b
+Ay 78c
+Ay/Ge 198
+Ay/Ph 104
+BE 1
+BE 107
+BE 150
+BE 153
+BE 159
+BE 167
+BE 200
+BE 201
+BE 240
+BE 262
+BE 98
+BE/APh 161
+BE/Bi 101
+BE/Bi 103
+BE/Bi 106
+BE/Bi/NB 203
+BE/CS 196a
+BE/CS 196b
+BE/CS/CNS/Bi 191a
+BE/CS/CNS/Bi 191b
+BE/EE/MedE 189a
+BE/EE/MedE 189b
+BEM 101
+BEM 102
+BEM 103
+BEM 104
+BEM 105
+BEM 107
+BEM 109
+BEM 110
+BEM 111
+BEM 112
+BEM 117
+BEM 97
+BEM/Ec 150
+BMB 278
+BMB 299
+BMB/Bi/Ch 170
+BMB/Bi/Ch 173
+BMB/Bi/Ch 174
+BMB/Ch 202a
+BMB/Ch 202b
+BMB/Ch 202c
+BMB/Ch 230
+Bi 10
+Bi 114
+Bi 116
+Bi 117
+Bi 118
+Bi 12
+Bi 122
+Bi 145a
+Bi 145b
+Bi 160
+Bi 165
+Bi 188
+Bi 189
+Bi 190
+Bi 192
+Bi 1x
+Bi 2
+Bi 206
+Bi 214
+Bi 22
+Bi 23
+Bi 250a
+Bi 250b
+Bi 252
+Bi 270a
+Bi 270b
+Bi 270c
+Bi 299
+Bi 8
+Bi 9
+Bi 90a
+Bi 90b
+Bi 90c
+Bi/BE 115
+Bi/BE 129
+Bi/BE 177
+Bi/BE 182
+Bi/BE 222
+Bi/BE 227
+Bi/BE 24
+Bi/BE/CS 183
+Bi/BMB 251a
+Bi/BMB 251b
+Bi/BMB 251c
+Bi/CNS 158
+Bi/CNS 250c
+Bi/CNS/BE/NB 230
+Bi/CNS/NB 152
+Bi/CNS/NB 154
+Bi/CNS/NB 157
+Bi/CNS/NB 162
+Bi/CNS/NB 164
+Bi/CNS/NB 184
+Bi/CNS/NB 185
+Bi/CNS/NB 195
+Bi/CNS/NB 216
+Bi/CNS/NB 217
+Bi/CNS/NB 220
+Bi/CNS/NB 250c
+Bi/CNS/NB/Psy 150
+Bi/Ch 110
+Bi/Ch 111
+Bi/Ge/ESE 105
+Bi/NB/BE 155
+CDS 110
+CDS 112
+CDS 131
+CDS 141
+CDS 190
+CDS 231
+CDS 232
+CDS 233
+CDS 242
+CDS 243
+CDS 244
+CDS 270
+CDS 300a
+CDS 300b
+CDS 300c
+CDS 90a
+CDS 90b
+CDS 90c
+CE 100
+CE 160a
+CE 160b
+CE 180
+CE 181a
+CE 181b
+CE 200
+CE 201
+CE 300
+CE 90a
+CE 90b
+CE 90c
+CE/Ae/AM 108a
+CE/Ae/AM 108b
+CE/ME 112a
+CE/ME 112b
+CE/ME/Ge 173
+CMS 290a
+CMS 290b
+CMS 290c
+CMS 300
+CMS/ACM/EE/IDS 117
+CMS/ACM/IDS 107
+CMS/ACM/IDS 113
+CMS/CS/CNS/EE/IDS 155
+CMS/CS/EE/IDS 144
+CMS/CS/IDS 139
+CNS 100
+CNS 180
+CNS 280
+CNS/Bi 286a
+CNS/Bi 286b
+CNS/Bi 286c
+CNS/Bi/EE/CS/NB 186
+CNS/Bi/NB 247
+CNS/Bi/NB 256
+CNS/Bi/Ph/CS/NB 187
+CNS/Bi/SS/Psy/NB 176
+CNS/Psy/Bi 131
+CNS/SS 251
+CNS/SS/Psy 110a
+CNS/SS/Psy 110b
+CS 1
+CS 101a
+CS 101b
+CS 101c
+CS 102a
+CS 102b
+CS 102c
+CS 103a
+CS 103b
+CS 103c
+CS 11
+CS 111
+CS 115
+CS 116
+CS 118
+CS 123
+CS 124
+CS 131
+CS 138
+CS 141
+CS 151
+CS 152
+CS 176
+CS 179
+CS 180
+CS 19a
+CS 19b
+CS 2
+CS 21
+CS 24
+CS 274a
+CS 274b
+CS 274c
+CS 280
+CS 282a
+CS 282b
+CS 282c
+CS 286a
+CS 286b
+CS 286c
+CS 3
+CS 37
+CS 38
+CS 4
+CS 80a
+CS 80b
+CS 80c
+CS 81a
+CS 81b
+CS 81c
+CS 9
+CS 90
+CS/ACM 177a
+CS/ACM 177b
+CS/CNS 171
+CS/CNS 174
+CS/CNS/EE 156a
+CS/CNS/EE 156b
+CS/CNS/EE/IDS 159
+CS/CNS/EE/IDS 165
+CS/EE 145
+CS/EE 146
+CS/EE/IDS 143
+CS/EE/ME 134
+CS/EE/ME 75a
+CS/EE/ME 75b
+CS/EE/ME 75c
+CS/IDS 121
+CS/IDS 122
+CS/IDS 142
+CS/IDS 150
+CS/IDS 153
+CS/IDS 178
+CS/Ph 120
+CS/SS/Ec 149
+Ch 
+Ch 101
+Ch 102
+Ch 104
+Ch 10a
+Ch 10b
+Ch 10c
+Ch 112
+Ch 117
+Ch 120a
+Ch 120b
+Ch 121a
+Ch 121b
+Ch 122
+Ch 125a
+Ch 125abc
+Ch 126
+Ch 135
+Ch 14
+Ch 143
+Ch 144a
+Ch 144b
+Ch 145
+Ch 146
+Ch 149
+Ch 15
+Ch 153a
+Ch 153b
+Ch 154a
+Ch 154b
+Ch 166
+Ch 180
+Ch 1a
+Ch 1b
+Ch 2
+Ch 212
+Ch 213a
+Ch 213b
+Ch 213c
+Ch 21a
+Ch 21b
+Ch 21c
+Ch 227a
+Ch 227b
+Ch 228
+Ch 24
+Ch 242a
+Ch 242b
+Ch 247
+Ch 25
+Ch 250
+Ch 251
+Ch 279
+Ch 280
+Ch 3a
+Ch 3x
+Ch 41a
+Ch 41b
+Ch 41c
+Ch 4a
+Ch 4b
+Ch 5a
+Ch 5b
+Ch 6a
+Ch 6b
+Ch 7
+Ch 8
+Ch 80
+Ch 81
+Ch 90
+Ch/BMB 129
+Ch/Bi 231
+Ch/ChE 140a
+Ch/ChE 140b
+Ch/ChE 147
+Ch/ChE 9
+Ch/ChE 91
+ChE 10
+ChE 101
+ChE 103a
+ChE 103b
+ChE 103c
+ChE 105
+ChE 114
+ChE 115
+ChE 118
+ChE 120
+ChE 126
+ChE 128
+ChE 130
+ChE 15
+ChE 151a
+ChE 151b
+ChE 152
+ChE 174
+ChE 190
+ChE 280
+ChE 62
+ChE 63a
+ChE 63b
+ChE 80
+ChE 90a
+ChE 90b
+ChE/BE 163
+ChE/BE/MedE 188
+ChE/Ch 148
+ChE/Ch 155
+ChE/Ch 164
+ChE/Ch 165
+E/Art 88
+E/H/Art 89
+E/ME 103
+E/ME/MedE 105a
+E/ME/MedE 105b
+EE 105a
+EE 105b
+EE 105c
+EE 110a
+EE 110b
+EE 110c
+EE 111
+EE 112
+EE 113
+EE 121
+EE 128a
+EE 128b
+EE 13
+EE 150
+EE 151
+EE 152
+EE 153
+EE 154a
+EE 154b
+EE 163
+EE 164
+EE 2
+EE 291
+EE 40
+EE 44
+EE 45
+EE 80a
+EE 80b
+EE 80c
+EE 90
+EE 91a
+EE 91b
+EE 99
+EE/APh 180
+EE/Ae 157a
+EE/Ae 157b
+EE/BE/MedE 185
+EE/CNS/CS 148
+EE/CS 10a
+EE/CS 10b
+EE/CS 119a
+EE/CS 119b
+EE/CS 119c
+EE/CS 147
+EE/CS 161
+EE/CS 53
+EE/CS/EST 135
+EE/CS/IDS 160
+EE/CS/IDS 167
+EE/CS/MedE 125
+EE/CS/MedE 175
+EE/ME 7
+EE/Ma/CS 126a
+EE/Ma/CS 126b
+EE/Ma/CS/IDS 127
+EE/Ma/CS/IDS 136
+EE/MedE 114a
+EE/MedE 114ab
+EE/MedE 114b
+EE/MedE 115
+EE/MedE 124
+EE/MedE 187
+ESE 1
+ESE 100
+ESE 101
+ESE 102
+ESE 103
+ESE 104
+ESE 106
+ESE 110a
+ESE 110b
+ESE 110c
+ESE 130
+ESE 131a
+ESE 131b
+ESE 132
+ESE 133
+ESE 134
+ESE 135
+ESE 136
+ESE 137
+ESE 138
+ESE 144
+ESE 156
+ESE 200
+ESE 300
+ESE 90
+ESE/Bi 166
+ESE/Bi 168
+ESE/Ch 175
+ESE/Ch 176
+ESE/ChE 158
+ESE/Ge 142
+ESE/Ge/Ch 171
+ESE/Ge/Ch 172
+ESL 101a
+ESL 101b
+ESL 107
+Ec 101
+Ec 105
+Ec 11
+Ec 117
+Ec 121a
+Ec 121b
+Ec 122
+Ec 135
+Ec 136
+Ec 140
+Ec 181a
+Ec 181b
+Ec 97
+Ec 98a
+Ec 98b
+Ec 98c
+Ec/ACM/CS 112
+Ec/PS 160a
+Ec/PS 160b
+Ec/PS 160c
+Ec/PS 172
+Ec/Psy 109
+Ec/Psy 109a
+Ec/Psy 109b
+Ec/SS 124
+Ec/SS 129
+Ec/SS 130
+En 102
+En 103
+En 104
+En 105
+En 106
+En 107
+En 113a
+En 113b
+En 118
+En 119
+En 121
+En 122
+En 123
+En 124
+En 125
+En 126
+En 127
+En 128
+En 129
+En 131
+En 135
+En 136
+En 137
+En 138
+En 139
+En 140
+En 141
+En 150
+En 178
+En 179
+En 180
+En 181
+En 182
+En 183
+En 185
+En 186
+En 190
+En 191
+En 83
+En 85
+En 86
+En 98
+En 99a
+En 99b
+En/F 160a
+En/F 160b
+En/F 161
+En/H 197
+En/Wr 84
+FS 17
+FS 2
+FS/Ay 3
+FS/Ge 16
+FS/Ma 12
+FS/Ph 11a
+FS/Ph 11b
+FS/Ph 11c
+FS/Ph 4
+FS/Ph 9
+Ge 1
+Ge 10
+Ge 101
+Ge 102
+Ge 103
+Ge 104
+Ge 106
+Ge 108
+Ge 109
+Ge 110
+Ge 111a
+Ge 111b
+Ge 112
+Ge 114a
+Ge 114b
+Ge 115a
+Ge 115b
+Ge 116
+Ge 11a
+Ge 11b
+Ge 11d
+Ge 120a
+Ge 120b
+Ge 121a
+Ge 121b
+Ge 121c
+Ge 122a
+Ge 122b
+Ge 122c
+Ge 123
+Ge 124a
+Ge 124b
+Ge 125
+Ge 126
+Ge 131
+Ge 136a
+Ge 136b
+Ge 136c
+Ge 14
+Ge 140a
+Ge 140b
+Ge 145
+Ge 151
+Ge 156
+Ge 16
+Ge 161
+Ge 162
+Ge 163
+Ge 164
+Ge 165
+Ge 166
+Ge 167
+Ge 177
+Ge 190
+Ge 191
+Ge 192
+Ge 193
+Ge 194
+Ge 195
+Ge 196
+Ge 197
+Ge 211
+Ge 212
+Ge 214
+Ge 215
+Ge 217
+Ge 218
+Ge 219
+Ge 232
+Ge 261
+Ge 263
+Ge 270
+Ge 277
+Ge 297
+Ge 299
+Ge 40
+Ge 41a
+Ge 41b
+Ge 41c
+Ge/Ay 117
+Ge/Ay 11c
+Ge/Ay 132
+Ge/Ay 133
+Ge/Ay 137
+Ge/Ay 159
+Ge/Bi 244
+Ge/Bi/ESE 246
+Ge/Ch 127
+Ge/Ch 128
+Ge/EE/ESE 157c
+Ge/ESE 118
+Ge/ESE 139
+Ge/ESE 140c
+Ge/ESE 143
+Ge/ESE 149
+Ge/ESE 150
+Ge/ESE 154
+Ge/ESE 155
+Ge/ESE 170
+Ge/ME 160a
+Ge/ME 160b
+H/L 142
+H/L 191
+H/SS 124
+HPS 102a
+HPS 102b
+HPS 103
+HPS 98
+HPS/H 160
+HPS/H 162
+HPS/H 166
+HPS/H 167
+HPS/H 168
+HPS/H 169
+HPS/H 170
+HPS/H 171
+HPS/H 172
+HPS/Pl 120
+HPS/Pl 123
+HPS/Pl 124
+HPS/Pl 125
+HPS/Pl 128
+HPS/Pl 130
+HPS/Pl 134
+HPS/Pl 135
+HPS/Pl 136
+HPS/Pl 138
+HPS/Pl 165
+HPS/Pl 188
+HPS/Pl/CS 110
+Hum 105a
+Hum 105b
+Hum 114a
+Hum 114b
+Hum 114c
+Hum 119
+Hum 174
+Hum 75
+Hum 80
+Hum/En 20
+Hum/En 21
+Hum/En 22
+Hum/En 23
+Hum/En 24
+Hum/En 26
+Hum/En 29
+Hum/En 33
+Hum/En 35
+Hum/En 36
+Hum/En 37
+Hum/En 38
+Hum/En 39
+Hum/F 50
+Hum/H 1
+Hum/H 10
+Hum/H 11
+Hum/H 3
+Hum/H 5
+Hum/H 9a
+Hum/H 9b
+Hum/H 9c
+Hum/H/HPS 18
+Hum/Pl 40
+Hum/Pl 41
+Hum/Pl 42
+Hum/Pl 43
+Hum/Pl 44
+IDS 197
+IDS 198
+IDS 199
+IDS 9
+IST 4
+L/F 109
+L/Hum 152a
+L/Hum 152b
+L/Hum 162
+Law/PS/H 148a
+Law/PS/H 148b
+ME 10
+ME 100
+ME 110
+ME 115a
+ME 115b
+ME 119a
+ME 119b
+ME 11a
+ME 11b
+ME 11c
+ME 12a
+ME 12b
+ME 12c
+ME 13
+ME 14
+ME 200
+ME 201
+ME 202a
+ME 202b
+ME 202c
+ME 300
+ME 50a
+ME 50b
+ME 72a
+ME 72b
+ME/CE 163
+ME/CE/Ge 174
+ME/CS 133a
+ME/CS 133b
+ME/EE/EST 109
+ME/Ge/Ae 266a
+ME/Ge/Ae 266b
+ME/MS 260
+ME/MedE 10
+MS 100
+MS 110a
+MS 110b
+MS 110c
+MS 115
+MS 121
+MS 122
+MS 125
+MS 131
+MS 132
+MS 133
+MS 142
+MS 150abc
+MS 200
+MS 300
+MS 78a
+MS 78b
+MS 78c
+MS 90
+MS/ME 161
+MS/ME 166
+MS/ME/MedE 116
+Ma 
+Ma 1
+Ma 10
+Ma 108a
+Ma 108b
+Ma 108c
+Ma 109a
+Ma 109b
+Ma 109c
+Ma 11
+Ma 110a
+Ma 110b
+Ma 110c
+Ma 111a
+Ma 111b
+Ma 112
+Ma 112a
+Ma 112b
+Ma 116a
+Ma 116b
+Ma 116c
+Ma 118
+Ma 120a
+Ma 120b
+Ma 120c
+Ma 121a
+Ma 121b
+Ma 123
+Ma 124
+Ma 125
+Ma 128
+Ma 13
+Ma 130
+Ma 130a
+Ma 130b
+Ma 130c
+Ma 132a
+Ma 132b
+Ma 135a
+Ma 135b
+Ma 145ab
+Ma 147a
+Ma 147b
+Ma 147c
+Ma 148
+Ma 151a
+Ma 151b
+Ma 151c
+Ma 157a
+Ma 157b
+Ma 157c
+Ma 160a
+Ma 160b
+Ma 160c
+Ma 162a
+Ma 162b
+Ma 17
+Ma 191a
+Ma 191b
+Ma 191c
+Ma 1a
+Ma 1b
+Ma 1c
+Ma 1d
+Ma 2
+Ma 20
+Ma 290
+Ma 3
+Ma 390
+Ma 5
+Ma 8
+Ma 92a
+Ma 92b
+Ma 92c
+Ma 97
+Ma 98
+Ma/ACM 142
+Ma/ACM/IDS 144a
+Ma/ACM/IDS 144b
+Ma/CS 117a
+Ma/CS 117b
+Ma/CS 117c
+MedE 100a
+MedE 100b
+MedE 100c
+MedE 101
+MedE 199
+MedE 201ab
+MedE 202
+MedE 205
+MedE 291
+MedE 99
+MedE/BE/Ae 243
+MedE/EE/BE 168a
+MedE/EE/BE 168b
+Mu 137
+Mu 138
+Mu 139
+Mu 51
+Mu 56
+Mu 57
+Mu 58
+Mu 59
+NB 299
+PE 1
+PE 10
+PE 11
+PE 2
+PE 27
+PE 28
+PE 29
+PE 3
+PE 31
+PE 33
+PE 37
+PE 38
+PE 4
+PE 40
+PE 5
+PE 71
+PE 81
+PE 85a
+PE 85b
+PE 87a
+PE 87b
+PE 89a
+PE 89b
+PE 9
+PE 90a
+PE 90b
+PE 90c
+PE 91a
+PE 91b
+PE 92
+PE 93a
+PE 93b
+PE 95a
+PE 95b
+PE 97
+PE 99
+PS 101
+PS 12
+PS 120
+PS 121
+PS 122
+PS 123
+PS 125
+PS 130
+PS 132
+PS 135
+PS 141a
+PS 141b
+PS 20
+PS 97
+PS 99a
+PS 99b
+PS/Ec 172
+PS/SS 139
+PVA 30a
+PVA 30b
+PVA 30c
+PVA 31a
+PVA 31b
+PVA 31c
+PVA 32a
+PVA 32b
+PVA 32c
+PVA 33a
+PVA 33b
+PVA 33c
+PVA 34a
+PVA 34b
+PVA 34c
+PVA 35a
+PVA 35b
+PVA 35c
+PVA 37a
+PVA 37b
+PVA 37c
+PVA 40a
+PVA 40b
+PVA 40c
+PVA 41a
+PVA 41b
+PVA 41c
+PVA 42a
+PVA 42b
+PVA 42c
+PVA 61a
+PVA 61b
+PVA 61c
+PVA 62a
+PVA 62b
+PVA 62c
+PVA 63a
+PVA 63b
+PVA 63c
+Ph 
+Ph 10
+Ph 101
+Ph 105
+Ph 106a
+Ph 106b
+Ph 106c
+Ph 12
+Ph 121a
+Ph 121b
+Ph 121c
+Ph 125a
+Ph 125b
+Ph 125c
+Ph 127a
+Ph 127b
+Ph 127c
+Ph 129a
+Ph 129b
+Ph 129c
+Ph 12b
+Ph 135
+Ph 136a
+Ph 136b
+Ph 136c
+Ph 137a
+Ph 137b
+Ph 137c
+Ph 139
+Ph 171
+Ph 172
+Ph 177
+Ph 199
+Ph 1a
+Ph 1b
+Ph 1c
+Ph 2
+Ph 20
+Ph 201
+Ph 205a
+Ph 205b
+Ph 205c
+Ph 21
+Ph 217
+Ph 22
+Ph 229a
+Ph 229b
+Ph 230a
+Ph 230b
+Ph 236a
+Ph 236b
+Ph 236c
+Ph 237
+Ph 242a
+Ph 242b
+Ph 250a
+Ph 250b
+Ph 250c
+Ph 2a
+Ph 2b
+Ph 3
+Ph 300
+Ph 5
+Ph 50a
+Ph 50b
+Ph 6
+Ph 7
+Ph 70
+Ph 77a
+Ph 77b
+Ph 77c
+Ph 8b
+Ph 8c
+Ph/APh 223a
+Ph/APh 223b
+Ph/APh/EE/BE 118a
+Ph/APh/EE/BE 118b
+Ph/APh/EE/BE 118c
+Ph/CS 219a
+Ph/CS 219b
+Ph/CS 219c
+Pl 100
+Pl 102
+Pl 185
+Pl 90a
+Pl 90b
+Pl 98
+Pl/CNS/NB/Bi/Psy 161
+Pl/HPS 183
+Pl/Law 99
+Psy 101
+Psy 115
+Psy 125
+Psy 13
+Psy 25
+Psy 90
+Psy/CNS 105a
+Psy/CNS 105b
+Psy/CNS 130
+SA 15a
+SA 15b
+SA 15c
+SA 16a
+SA 16b
+SA 16c
+SA 70a
+SA 70b
+SA 70c
+SA 80a
+SA 80b
+SA 80c
+SA 81a
+SA 81b
+SS 101
+SS 200
+SS 201a
+SS 201b
+SS 201c
+SS 202a
+SS 202b
+SS 202c
+SS 205a
+SS 205b
+SS 205c
+SS 209
+SS 210a
+SS 210b
+SS 210c
+SS 211a
+SS 211b
+SS 211c
+SS 213a
+SS 213b
+SS 213c
+SS 215
+SS 216
+SS 217
+SS 218
+SS 222a
+SS 222b
+SS 222c
+SS 223a
+SS 223b
+SS 223c
+SS 224
+SS 225
+SS 228a
+SS 228b
+SS 228c
+SS 229a
+SS 229b
+SS 229c
+SS 231a
+SS 231b
+SS 231c
+SS 232a
+SS 232b
+SS 232c
+SS 240
+SS 260
+SS 281
+SS 282a
+SS 282b
+SS 282c
+SS 299
+SS 300
+SS 98
+SS/CS 149
+SS/CS 241
+SS/Ma 214
+SS/Psy 283a
+SS/Psy 283b
+SS/Psy 283c
+SS/Psy/Bi/CNS 255
+Wr 1
+Wr 2
+Wr 3
+Wr 4
+Wr 50
+Research in Aerospace
+adviser and by the option representative. 
+Ae/APh/CE/ME 101 abc
+Mechanics of Structures and Solids
+Aerospace Control Systems
+Experimental Methods
+Aerospace Engineering
+Computational Mechanics
+Spacecraft Navigation
+Physics of Thermal and Mass Transport in Hydrody-
+namic Systems
+Classical Thermodynamics
+Combustion Fundamentals
+Space Propulsion
+Aerospace Engineering Seminar
+Introduction to the Physics of Remote Sensing
+Optical Engineering
+desirable. This class covers both the 
+fundamentals of optical engineering and the development of space optical 
+systems
+Continuum Mechanics of Fluids and Solids
+Mechanics of Composite Materials and Structures
+Advanced Research in Aerospace
+Advanced Fluid Mechanics
+Technical Fluid Mechanics
+Advanced Space Project
+GALCIT Colloquium
+Mechanics and Materials Aspects of Fracture
+Computational Solid Mechanics
+Dynamic Behavior of Materials
+Statistical Mechanics
+Theory of Structures
+Space Structures
+Plasticity
+Special Topics in Solid Mechanics
+Computational Mechanics Simulations Using Particles
+Computational Fluid Dynamics
+Hydrodynamic Stability
+abc or equivalent. Laminar-stability theory as a guide 
+to laminar-turbulent transition
+Hypersonic Aerodynamics
+Rarefied Gasdynamics
+Nonsteady Gasdynamics
+Turbulence
+Reynolds-averaged 
+equations and the problem of closure
+Special Topics in Fluid Mechanics
+Special Topics in Experimental Fluid and Solid Mechanics
+Biological Flows: Propulsion
+Biological Flows: Transport and Circulatory 
+Systems
+Mechanics of Nanomaterials
+Reading and Independent Study
+Closed Loop Flow Control
+Dynamic Fracture and Frictional Faulting
+Introduction to Sociocultural Anthropology
+Human Evolution
+Undergraduate Research
+Selected Topics in Anthropology
+Corruption
+Corruption taxes economies and individuals in both the developing 
+and the developed world
+Primate Behavior
+Caltech Undergraduate Culture and Social Organization
+The Caltech Project
+or permission of instructor. Hands-on immersion in a social scientific 
+research project examining the Caltech undergraduate community
+Introduction to Matlab and Mathematica
+CS 1 or prior programming experience recom-
+mended
+Methods of Applied Mathematics
+ab or equivalent. 
+First term: Brief review of the elements of complex analysis and complex-
+variable methods
+Applied Linear Algebra
+Applied Real and Functional Analysis
+Introductory Methods of Computational Mathemat-
+ics
+Linear Analysis with Applications
+Bayesian Statistics
+Mathematical Optimization
+Parallel Algorithms for Scientific Applications
+Introduction to Probability Models
+Probability and Random Processes
+Calculus of Variations
+Ordinary and Partial Differential Equations
+Probability
+Inverse Problems and Data Assimilation
+Statistical Inference
+Mathematical Statistics
+Mathematics of Signal Processing
+Discrete Differential Geometry: Theory and Applica-
+tions
+Partial Differential Equations
+Topics in Linear Algebra and Convexity
+Numerical Methods for PDEs
+Topics in Optimization
+Material varies year-to-year
+Advanced Topics in Stochastic Analysis
+Special Topics in Applied Mathematics
+or equivalent. Introduction to finite 
+element methods
+Special Topics in Financial Mathematics
+Advanced Topics in Applied and Computational Mathemat-
+ics
+Research in Applied and Computational Mathematics
+Graduate Engineering Seminar
+Dynamics and Vibration
+Finite Elasticity
+Advanced Work in Applied Mechanics
+Advanced Topics in Applied Mechanics
+Mechanics and Materials Aspects of  Fracture
+Research in Applied Mechanics
+Solid-State Electronics for Integrated Circuits
+Thermodynamics
+Introduction to the use of thermodynamics 
+and statistical mechanics in physics and engineering
+Demonstration Lectures in Optics
+Introductory Modern Optics Laboratory
+Laboratory experiments to acquaint students 
+with the contemporary aspects of modern optical research and technology
+Laboratory in Applied Physics
+Advanced Work in Applied Physics
+Fluid Mechanics
+States of Matter
+Introduction to the Micro/Nanofabrication Lab
+Topics in Applied Physics
+Solid-State Physics
+abc or equivalent. Introductory lecture and problem 
+course dealing with experimental and theoretical problems in solid-state 
+physics
+Physics of Momentum Transport in Hydrodynamic 
+Systems
+Physics of Thermal and Mass Transport in Hydro-
+dynamic Systems
+or equivalent. Contemporary research in many 
+areas of physics requires some knowledge of how momentum transport in 
+fluids couples to diffusive phenomena driven by thermal or concentration 
+gradients
+Physics of Measurement
+Electromagnetic Theory
+Special Topics in Photonics and Optoelectronics
+Plasma Physics
+abc or equivalent. An introduction to the principles of 
+plasma physics
+Physical Biology of the Cell
+Nanotechnology
+Physics of Semiconductors and Semiconductor Devices
+Quantum Electronics
+Applied Physics Research
+Advanced Condensed-Matter Physics
+Advanced Topics in Applied Physics
+Computational Solid State Physics and Materials Science
+Thesis Research in Applied Physics
+Traditions of Japanese Art
+Arts of Buddhism
+Critical Making
+New Media Arts in the 20th and 21st Centuries
+The Arts of Dynastic China
+The Evolving Universe
+Freshman Seminar: Automating Discovering the Universe
+Planetary Sciences
+Basic Astronomy and the Galaxy
+Galaxies and Cosmology
+Introduction to Modern Research
+Writing in Astronomy
+Reading in Astronomy and Astrophysics
+Senior Thesis
+Physics of Stars
+Physics of the Interstellar Medium
+is recommended. An introduction to observations of the 
+inter-stellar medium and relevant physical processes
+Relativistic Astrophysics
+This course is designed primarily for junior and 
+senior undergraduates in astrophysics and physics
+Optical Astronomy Instrumentation Lab
+An opportunity for astronomy and physics 
+undergraduates (juniors and seniors) to gain firsthand experience with the 
+basic instrumentation tools of modern optical and infrared astronomy
+Introduction to Current Astrophysics Research
+Statistics and Data Analysis
+Astroinformatics
+Radiative Processes
+Astronomical Measurements and Instrumentation
+or equivalent. 
+Measurement and signal analysis techniques througout the electromag-
+netic spectrum
+Structure and Evolution of Stars
+Structure and Dynamics of Galaxies
+High-Energy Astrophysics
+Interstellar and Intergalactic Medium
+Cosmology and Galaxy Formation
+Atomic and Molecular Processes in Astronomy and Plan-
+etary Sciences
+The Formation and Evolution of Planetary Systems
+Planetary Physics
+Research Conference in Astronomy
+Research in Astronomy and Astrophysics
+required for candidacy for graduate students. Graded 
+pass/fail
+Astrobiology
+Computational Astrophysics
+Special Topics in the Planetary Sciences
+Contemporary Extragalactic Astronomy
+Seminar in Theoretical Astrophysics
+Extrasolar Planets
+Elements in the Universe and Galactic Chemical Evolution
+Introduction to Biophotonics
+Biochemistry and Biophysics of Macromolecules and 
+Molecular Assemblies
+
+Detailed analysis of the structures of the four classes of biological molecules 
+and the forces that shape them
+Biophysical/Structural Methods
+Molecular Machines in the Cell
+Biochemistry Seminar Course
+Macromolecular Structure Determination with Modern 
+X-ray Crystallography Methods
+Current Research in Cellular and Molecular Biology
+Fundamentals of Molecular Genetics
+Graduate Research
+ Frontiers in Bioengineering
+Scientific Communication for Biological Scientists and Engi-
+neers
+Undergraduate Research in Bioengineering
+Order of Magnitude Biology
+Data Analysis in the Biological Sciences
+Comparative Biomechanics
+Exploring Biological Principles Through Bio-Inspired Design
+Programmable Viruses and Applications to Biological Sys-
+tems
+Design Principles of Genetic Circuits
+Case Studies in Systems Physiology
+Neuropharmacology
+Signal Transduction and Mechanics in Morphogenesis
+Introduction to Biomolecular Engineering
+Research Topics in Bioengineering
+Biomedical Optics: Principles and Imaging
+Principles of Modern Microscopy
+Animal Development and Genomic Regulatory Network 
+Design
+Introduction to Computational Biology and Bioinfor-
+matics
+MEMS Technology and Devices
+Molecular Imaging
+Design and Construction of Biodevices
+Biomolecular Computation
+Design and Construction of Programmable Molecular 
+Systems
+Research in Bioengineering
+ Reading the Bioengineering Literature
+Introduction to Programming for the Biological Scienc-
+es Bootcamp
+The Structure of the Cytosol
+Methods in Modern Microscopy
+Optogenetic and CLARITY Methods in Experi-
+mental Neuroscience
+Special Topics in Bioengineering
+Biological Flows: Transport and Circulatory Sys-
+tems
+Physical Biology Bootcamp
+The Great Ideas of Biology: Exploration through Experimenta-
+tion
+Current Research in Biology
+Introduction to Molecular Biology: Regulation of Gene Expres-
+sion
+Cell Biology
+Introductory Biology Laboratory
+Biology Tutorials
+Scientific Communication for Biological Scientists and En-
+gineers
+Undergraduate Thesis
+Evolution
+Introduction to Biochemistry
+Biochemistry of Gene Expression
+recommended. Lectures and 
+recitation on the molecular basis of biological structure and function
+Immunology
+recommended. The course will cover the 
+molecular and cellular mechanisms that mediate recognition and response 
+in the mammalian immune system
+Microbial Genetics
+Developmental Biology
+A survey of the development of multicellular organisms
+Morphogenesis of Developmental Systems
+Genetics
+The Biology and Treatment of Cancer
+The Psychology of Learning and Motivation
+Tissue and Organ Physiology
+Bi/Ch 110 may be taken concurrently
+Introduction to Neuroscience
+Neural Circuits and Physiology of Appetite and Body 
+Homeostasis
+Principles of Neuroscience
+Comparative Nervous Systems
+Vertebrate Evolution
+Molecular Basis of Animal Evolution
+Consciousness
+Cellular and Systems Neuroscience Laboratory
+Tools of Neurobiology
+or equivalent. Offers a broad survey of 
+methods and approaches to understanding in modern neurobiology
+Microbiology Research: Practice and Proposal
+Microbial Physiology
+Microbial Metabolic Diversity
+Cognition
+The Primate Visual System
+Large Scale Brain Networks
+Vision: From Computational Theory to Neu-
+ronal Mechanisms
+Neural Computation
+Human Genetics and Genomics
+The Cell Cycle
+The course covers the mechanisms by which eukaryotic cells control 
+their duplication
+Systems Genetics
+Introduction to Systems Biology
+Mathematics in Biology
+Biochemical and Genetic Methods in Biological Research
+Stem Cells and Hematopoiesis
+Behavior of Mammals
+Central Mechanisms in Perception
+Genetic Dissection of Neural Circuit Function
+or equivalent. 
+Open to advanced (junior or senior) undergraduates only and with instructor 
+permission
+Advanced Topics in Biochemistry
+Paleobiology Seminar
+Molecular Geobiology Seminar
+Cerebral Cortex
+Topics in Molecular and Cellular Biology
+Topics in Systems Biology
+Topics in Systems Neuroscience
+Responsible Conduct of Research
+Topics in Emotion and Social Cognition
+Decision Making
+Special Topics in Biology
+Special Topics in Computation and Neural Systems
+Selected Topics in Business Economics and Management
+Introduction to Accounting
+Introduction to Finance
+Investments
+Options
+Applied Corporate Finance and Investment Banking
+Fixed-Income and Credit-Risk Derivatives
+Venture Capital
+Quantitative Risk Management
+An introduction to 
+financial risk management
+International Financial Markets
+Behavioral Finance
+Business Analytics
+Chemical Synthesis and Characterization for Chemical 
+Engineering
+Introduction to Chemical Engineering
+Introduction to Chemical Engineering Computation
+Separation Processes
+Equilibrium staged separations
+Chemical Engineering Thermodynamics
+Scientific Writing
+Chemical Reaction Engineering
+Transport Phenomena
+Dynamics and Control of Chemical Systems
+Solid State NMR Spectroscopy For Materials Chemistry
+Electronic Materials Processing
+Introduction to the Design of Chemical Systems
+Optimal Design of Chemical Systems
+Chemical Engineering Laboratory
+Chemical Engineering Design Laboratory
+Biomolecular Engineering Laboratory
+Principles and Applications of Semiconductor Photo-
+electrochemistry
+Polymer Chemistry
+Polymer Physics
+Physical and Chemical Rate Processes
+Heterogeneous Kinetics and Reaction Engineering
+Chemistry of Catalysis
+Aerosol Physics and Chemistry
+Introduction to Statistical Thermodynamics
+Chemical Thermodynamics
+Special Topics in Transport Phenomena
+Special Problems in Chemical Engineering
+Chemical Engineering Research
+General Chemistry
+Fundamental Techniques of Experimental Chemistry
+Experimental Methods in Solar Energy Conversion
+Synthesis and Analysis of Organic and Inorganic Compounds
+
+Ch 4 a is a prerequisite for Ch 4 b
+Advanced Techniques of Synthesis and Analysis
+
+Ch 102 strongly recommended for Ch 5 b
+Physical and Biophysical Chemistry Laboratory
+Advanced Experimental Methods in Bioorganic Chemistry
+
+Enrollment by instructor’s permission
+ Experimental Procedures of Synthetic Chemistry for Premedical 
+Students
+ Chemical Synthesis and Characterization for Chemical En-
+gineering
+Frontiers in Chemistry
+Chemical Equilibrium and Analysis
+Chemical Equilibrium and Analysis Laboratory
+Physical Chemistry
+Introduction to Biophysical Chemistry: Thermodynamics
+Organic Chemistry
+Chemical Research
+Independent Reading in Chemistry
+Oral Presentation
+Chemistry Tutorials
+Introduction to Inorganic Chemistry
+Intermediate Organic Chemistry
+Inorganic Chemistry
+Introduction to Electrochemistry
+Nature of the Chemical Bond
+Atomic-Level Simulations of Materials and Molecules
+Atomistic-based methods for predicting the structures 
+and properties of molecules and solids and simulating the dynamical prop-
+erties
+Structure Determination by X-ray Crystallography
+The Elements of Quantum Chemistry
+Molecular Spectra and Molecular Structure
+Nuclear Chemistry
+Cosmochemistry
+Chemical Dynamics
+Principles and Applications of Semiconductor Pho-
+toelectrochemistry
+NMR Spectroscopy for Structural Identification
+This course will address both one-dimen-
+sional and two-dimensional techniques in NMR spectroscopy which are 
+essential to elucidating structures of organic and organometallic samples
+ Advanced Organic Chemistry
+Chemical Biology of Proteins
+recommended. An advanced survey of current 
+and classic topics in chemical biology
+Bioorganic Chemistry of Nucleic Acids
+Tutorial in Organic Chemistry
+Advanced Inorganic Chemistry
+abc or concurrent registration. Ch 153 
+a: Topics in modern inorganic chemistry
+Organometallic Chemistry
+Nonequilibrium Statistical Mechanics
+Atmospheric Chemistry I
+Atmospheric Chemistry II
+ Physical Chemistry of Engineered Waters
+Physical Organic Chemistry of Natural Waters
+Bioinorganic Chemistry
+Advanced Ligand Field Theory
+abc or concurrent registration. A tutorial course 
+of problem solving in the more advanced aspects of ligand field theory
+Advanced Topics in Chemical Physics
+abc or equivalent. The goal of this 
+course is to utilize approaches derived from the chemico-physical to under-
+stand what are often considered complex biological problems
+Dynamics and Complexity in Physical and Life Sciences
+Chemical Synthesis
+An integrated approach to synthetic problem solving 
+featuring an extensive review of modern synthetic reactions with concur-
+rent development of strategies for synthesis design
+Organic Reaction Mechanisms
+a recommended. This course will discuss 
+and uncover useful strategies and tactics for approaching complex reaction 
+mechanisms prevalent in organic reactions
+Advanced Topics in Chemistry
+Advanced Topics in Chemical Biology
+Rotations in Chemistry
+Structural Analysics and Design
+Special Topics in Civil Engineering
+Hydraulic Engineering
+Dynamics and Vibrations
+Structural and Earthquake Engineering
+Mechanics and Rheology of Fluid-Infiltrated Porous Me-
+dia
+Mechanics of Soils
+Mechanics of Rocks
+Experimental Methods in Earthquake Engineering
+Engineering Seismology
+Advanced Work in Civil Engineering
+Advanced Topics in Civil Engineering
+Research in Civil Engineering
+Introduction to Computation and Neural Systems
+Frontiers in Neuroeconomics
+Cognitive Neuroscience Tools
+Introduction to Human Memory
+Selected Topics in Computational Vision
+Machine Learning & Data Mining
+Learning Systems
+Advanced Topics in Machine Learning
+Foundations of Machine Learning
+Introduction to Computer Graphics Laboratory
+Computer Graphics Projects
+Research in Computation and Neural Systems
+Vision: From Computational Theory to 
+Neuronal Mechanisms
+or equivalent. A general survey of the structure and 
+function of the cerebral cortex
+Human Brain Mapping: Theory and Practice
+Introduction to Computer Programming
+Instructor: Vanier
+Introduction to Programming Methods
+or equivalent. CS 2 is a demanding course in program-
+ming languages and computer science
+Introduction to Software Engineering
+Fundamentals of Computer Programming
+Introduction to Computer Science Research
+Introduction to Digital Logic and Embedded Systems
+Computer Language Lab
+CS 11 may be repeated for credit of up to a total of nine units
+Introduction to Computer Science in Industry
+Decidability and Tractability
+Introduction to Computing Systems
+Algorithms in the Real World
+or permission from instructor. This course introduces 
+algorithms in the context of their usage in the real world
+Algorithms
+This course introduces techniques for the design 
+and analysis of efficient algorithms
+Microprocessor Project Laboratory
+Multidisciplinary Systems Engineering
+Undergraduate Projects in Computer Science
+Undergraduate Reading in Computer Science
+Special Topics in Computer Science
+Seminar in Computer Science
+Reading in Computer Science
+Causation and Explanation
+Graduate Programming Practicum
+Functional Programming
+Reasoning about Program Correctness
+or equivalent. This course presents the use of logic and 
+formal reasoning to prove the correctness of sequential and concurrent pro-
+grams
+Computability Theory
+Logic Model Checking for Formal Software Verification
+Advanced Digital Systems Design
+Quantum Cryptography
+Relational Databases
+or equivalent. Introduction to the basic theory and usage of relational 
+database systems
+Database System Implementation
+Projects in Database Systems
+Operating Systems
+Digital Electronics and Design with FPGAs and 
+VHDL
+Information Theory
+Error-Correcting Codes
+Programming Languages
+CS 131 is a course on programming languages and their 
+implementation
+Robotics
+Autonomy
+Power System Analysis
+Topics in Information Theory
+Computer Algorithms
+Analysis and Design of Algorithms
+Hack Society: Projects from the Public Sector
+Distributed Computing
+Programming distributed systems
+Communication Networks
+Networks: Structure & Economics
+Projects in Networking
+Advanced Networking
+Digital Ventures Design
+Algorithmic Economics
+Probability and Algorithms
+Complexity Theory
+Introduction to Cryptography
+or equivalent recommended. This course 
+is an introduction to the foundations of cryptography
+Current Topics in Theoretical Computer Science
+Fundamentals of Information Transmission and Stor-
+age
+Big Data Networks
+Introduction to Data Compression and Storage
+Computer Graphics Laboratory
+Digital Circuits Analysis and Design with Complete 
+VHDL and RTL Approach
+Computer Graphics Research
+Numerical Algorithms and their Implementation
+This course gives students the un-
+derstanding necessary to choose and implement basic numerical algorithms 
+as needed in everyday programming practice
+GPU Programming
+Master’s Thesis Research
+Quantum Computation
+Topics in Algorithmic Economics
+Topics in Computer Graphics
+Research in Computer Science
+or equivalent. This course devel-
+ops core principles for the analysis and design of algorithms
+Computing and Mathematical Sciences Colloquium
+Research in Computing and Mathematical Sciences
+Senior Thesis in Control and Dynamical Systems
+Introduction to Feedback Control Systems
+Optimal Control and Estimation
+Linear Systems Theory
+Network Control Systems
+Independent Work in Control and Dynamical Systems
+Robust Control Theory
+Instructor: Doyle
+Nonlinear Dynamics
+This course studies nonlinear dynami-
+cal systems beginning from first principles
+Nonlinear Control
+This course studies nonlinear control systems 
+from Lyapunov perspective
+Hybrid Systems: Dynamics and Control
+This class studies hybrid dynam-
+ical systems: systems that display both discrete and continuous dynamics
+Adaptive Control
+System Identification
+Advanced Topics in Systems and Control
+Research in Control and Dynamical Systems
+Introduction to Economics
+Senior Research and Thesis
+Selected Topics in Economics
+Industrial Organization
+Frontiers in Behavioral Economics
+or equivalent. This course provides an 
+introduction to Bayesian Statistics and its applications to data analysis in 
+various fields
+Matching Markets
+Theory of Value
+Econometrics
+
+The application of statistical techniques to the analysis of economic data
+Identification Problems in the Social Sciences
+Statistical inference in the social 
+sciences is a difficult enterprise whereby we combine data and assumptions 
+to draw conclusions about the world we live in
+Economic History of the United States
+An examination of certain analytical and quanti-
+tative tools and their application to American economic development
+Economic History of Europe from the Middle Ages to 
+the Twentieth Century
+
+Employs the theoretical and quantitative techniques of economics to help 
+explore and explain the development of the European cultural area between 
+1000 and 1980
+Economics of Uncertainty and Information
+An analysis of the effects of uncertainty 
+and information on economic decisions
+Behavioral Decision Theory
+Economic Progress
+Laboratory Experiments in the Social Sciences
+Game Theory
+Convex Analysis and Economic Theory
+Ec 121a is recommended
+Electrical Engineering Entrepreneurial and Research Seminar
+Introduction to Mechatronics
+Electronic System Prototyping
+Introduction to Semiconductors Devices
+This course provides an 
+introduction to semiconductors and semiconductor sensors
+Circuits and Systems
+Electronics Laboratory
+Fundamentals of electronic circuits and systems
+Analog Electronics Project Laboratory
+A structured laboratory course that gives 
+the student the opportunity to design and build a simple analog electronics 
+project
+Experimental Projects in Electronic Circuits
+Advanced Work in Electrical Engineering
+Electrical Engineering Seminar
+Energy Technology and Policy
+Embedded Systems Design Laboratory
+Signal-Processing Systems and Transforms
+An introduction to continuous and discrete time 
+signals and systems with emphasis on digital signal processing systems
+Introduction to Signal Processing from Data
+or equivalent. Math 3 recommended
+Feedback and Control Circuits
+or equivalent. This class studies the design and implemen-
+tation of feedback and control circuits
+Analog Circuit Design
+or equivalent. Analysis and design of analog 
+circuits at the transistor level
+Micro-/Nano-scales Electro-Optics
+Computational Signal Processing
+Mixed-mode Integrated Circuits
+a or equivalent. Introduction to selected topics in 
+mixed-signal circuits and systems in highly scaled CMOS technologies
+This course develops from first principles the 
+theory and practical implementation of the most important techniques for 
+combating errors in digital transmission or storage systems
+Selected Topics in Digital Signal Processing
+or equivalent recommended. The course focuses on 
+several important topics that are basic to modern signal processing
+Topics in Electrical Engineering
+Electromagnetic Engineering
+High Frequency Systems Laboratory
+or equivalent. EE 153 recommended
+Microwave Circuits and Antennas
+Practical Electronics for Space Applications
+or equivalent. An overview of 
+the physics behind space remote sensing instruments
+Remote Sensing for Environmental and Geological 
+Applications
+Fundamentals of Information Transmission and 
+Storage
+or their equivalents. Next generation 
+networks will have tens of billions of nodes forming cyber-physical 
+systems and the Internet of Things
+Communication Theory
+Stochastic and Adaptive Signal Processing
+The 
+course will introduce the students to the basic principles and techniques of 
+codes for data compression and storage
+Digital Circuits Analysis and Design with 
+Complete VHDL and RTL Approach
+VLSI and ULSI Technology
+Management of Technology
+are useful but not required precursors. Instructor: Pickar
+Design for Freedom from Disability
+Greek Epic and Drama
+The Marvelous and the Monstrous: Literature at the 
+Boundaries of the Real
+Inequality
+Literature and Medicine
+The Scientific Imagination in English Literature
+Encountering Difference in Medieval Literature
+Dream Narratives
+Modern Metamorphoses
+Major British Authors
+American Literature and Culture
+Modern European Literature
+Telling Time in American Modernism
+Contemporary American Fiction
+History of the English Language
+Writing About Science
+Poetry Writing
+Fiction and Creative Nonfiction Writing
+Reading in English
+Senior Tutorial for English Majors
+Origins of Science Fiction
+Introduction to Medieval British Literature
+Imagining the Medieval in the Nineteenth Century
+Old English Literature
+Poetic Justice: Histories of Literature and Law
+Medieval Romance
+Shakespeare’s Career
+Classical Mythology
+Displacement
+Literature and Its Readers
+Early History of the Novel
+The 19th-Century English Novel
+20th-Century British Fiction
+British Romantic Literature
+Gothic Fiction
+Jane Austen
+Modern and Contemporary Irish Literature
+Early Irish Literature
+Poe’s Afterlife
+Dickens’s London
+The Fiction of Charles Dickens
+African American Literature
+Twain and His Contemporaries
+Reading Resistance in Cold War American Literature
+African American Expatriate Culture in Postwar Europe
+Contemporary African American Literature
+Chaos and Literature
+Classical Hollywood Cinema
+The New Hollywood
+Medieval Subjectivities
+Constituting Citizenship before the Fourteenth Amendment
+Special Topics in English
+Hardy: The Wessex Novels
+Literature and the First Amendment
+Victorian Crime Fiction
+Dickens and the Dickensian
+The Novel of Education
+Chaucer
+Masterworks of Contemporary Latin American Fiction
+American Literature and the Technologies of Reading
+Oral Communication and Pronunciation
+ESL Graduate Writing Seminar
+Earth’s Climate
+Instructor: Wennberg
+Undergraduate Laboratory Research in Environmental Science 
+and Engineering
+Special Problems in Environmental Science and Engineering
+Earth’s Atmosphere
+Earth’s Oceans
+Earth’s Biogeochemical Cycles
+Current Problems in Environmental Science and Engineering
+Research in Environmental Science and Engineering
+Seminar in Environmental Science and Engineering
+Methods in Data Analysis
+Atmosphere Dynamics
+Physical Oceanography I
+Physical Oceanography II
+Tropical Atmosphere Dynamics
+Global Atmospheric Circulations
+Cloud and Boundary Layer Dynamics
+Topics in Atmosphere and Ocean Dynamics
+Climate Models
+Polar Oceanography
+Ocean Turbulence and Wave Dynamics
+Introduction to Atmospheric Radiation
+Stable Isotope Biogeochemistry
+Aquatic Chemistry of Natural Waters
+Organic Geochemistry
+Climate from Space
+Marine Geochemistry
+Planetary Atmospheres
+Readings in Paleoclimate
+Paleoceanography
+Remote Sensing of the Atmosphere and Biosphere
+A course on the metabolic diversity 
+of microorganisms
+Microbial Ecology
+or equivalent. A detailed course about chemical transfor-
+mation in Earth’s atmosphere
+or equivalent. A lecture and discussion course 
+about active research in atmospheric chemistry
+Physical Chemistry of Engineered Waters
+Advanced Topics in Environmental Science and Engineering
+Thesis Research
+Introduction to Film
+Introduction to French Cinema from Its Beginning to the Pres-
+ent
+Freshman Seminar: The Origins of Ideas
+Freshman Seminar: Astrophysics and Cosmology with Open 
+Data
+Freshman Seminar: The Science of Music
+Freshman Seminar: Beyond Physics
+Freshman Seminar: The Mathematics of Enzyme Kinetics
+Freshman Seminar: Earthquakes
+Freshman Seminar: The Business Side of Sports
+Earth and Environment
+Frontiers in Geological and Planetary Sciences
+Introduction to Earth and Planetary Sciences: Earth as a 
+Planet
+Introduction to Earth and Planetary Sciences: Earth and the 
+Biosphere
+Introduction to Earth and Planetary Sciences: Planetary 
+Sciences
+Introduction to Earth and Planetary Sciences: Geophysics
+Special Problems for Undergraduates
+Undergraduate Research and Bachelor’s Thesis
+Introduction to Geology and Geochemistry
+Introduction to Geophysics
+Introduction to the Solar System
+Introduction to Geobiology
+Introduction to Structural Geology
+Description and origin of main classes of deforma-
+tional structures
+Applications of Physics to the Earth Sciences
+or equivalent. An intermediate course 
+in the application of the basic principles of classical physics to the earth 
+sciences
+Geographic Information System for Geology and Planetary Sci-
+ences
+Applied Geophysics Seminar and Field Course
+An introduction to the theory and 
+application of basic geophysical field techniques consisting of a comprehen-
+sive survey of a particular field area using a variety of methods (e
+May be repeated for credit with an instructor’s permission
+Sedimentology and Stratigraphy
+Mineralogy
+Mineralogy Laboratory
+Petrology and Petrography: Igneous Petrology
+Petrology and Petrography: Metamorphic Petrology
+Instructor: Eiler
+Analytical Techniques Laboratory
+Bayesian Statistics and Data Analysis
+or equivalent. Introduction to methods in data analysis
+Field Geology: Introduction to Field Geology
+Field Geology: Summer Field Camp
+Advanced Field Geology
+Field Geology Seminar
+Continental Crust Seminar
+Paleomagnetism and Magnetostratigraphy
+Geomorphology
+Topics in Earth Surface Processes
+Planetary Structure and Evolution
+Regional Field Geology of the Southwestern United States
+Stable Isotope Geochemistry
+Radiogenic Isotope Geochemistry
+Isotope-Ratio Mass Spectrometry
+Introduction to chemical oceanography and sediment 
+geochemistry
+Planetary Surfaces
+Evaluation of the data and models that make up our current 
+understanding of past climates
+Topics in Planetary Surfaces
+Remote Sensing for Environmental and Geologi-
+cal Applications
+Plate Tectonics
+Seismology
+Geodynamics
+Mineral Physics
+Geophysical Data Analysis and Seismic Imaging
+Hydrology
+Tectonic Geodesy
+abcd. Readings in Geophysics
+Active Tectonics
+or equivalent. Introduction to techniques for identifying and 
+quantifying active tectonic processes
+The Nature and Evolution of the Earth
+Special Topics in Geochemistry
+Special Topics in the Geological Sciences
+Special Topics in Geophysics
+Special Topics in Planetary Sciences
+Special Topics in Field Geology
+Special Topics in Atmospheres and Oceans
+Special Topics in Geobiology
+Applied Geophysics II
+Thermodynamics of Geological Systems
+Spectroscopy of Minerals
+Topics in Advanced Petrology
+Radiogenic Isotopes Seminar
+Stable Isotopes Seminar
+or permission of instructor. The course deals with advanced top-
+ics in stable isotope geochemistry and builds on Ge 140
+Non-traditional Isotopes Seminar
+Chemistry of the Solar System
+Critical reviews and discussion 
+of classic papers and current research in microbiology and geomicrobiology
+Advanced Seismology
+Computational Geophysics
+Continental Tectonics
+Active Tectonics Seminar
+Advanced Study
+American History
+The United States in the Twentieth Century
+The History of the Chinese Empire
+European Civilization: The Classical and Medieval Worlds
+European Civilization: Early Modern Europe
+European Civilization: Modern Europe
+Medieval Europe: The Problem of Violence
+Love and Death: Using Demography to Study the History of 
+Europe from 1700
+Introduction to the History of Science
+Problems in Historical Demography
+Perspectives on History through Russian Literature
+The Supreme Court in U
+Einstein and His Generation: The History of Modern 
+Physical Sciences
+Social Studies of Science
+Historical Perspectives on the Relations between Science 
+and Religion
+Experimenting with History/Historic Experiment
+History of Electromagnetism and Heat Science
+Selected Topics in the History of Science and Technol-
+ogy
+History of Light from Antiquity to the 20th Century
+History of Mechanics from Galileo through Euler
+History of Mathematics: A Global View with Close-ups
+Perspectives on History through German Literature
+Reading in History and Philosophy of Science
+Senior Research Seminar
+Public Lecture Series
+Introduction to Philosophy of Science
+Introduction to the Philosophy of Physics
+Philosophy of Space and Time
+Philosophical Issues in Quantum Physics
+This course will focus on philo-
+sophical and foundational questions raised by quantum physics
+Philosophy of Mathematics
+Philosophy and Biology
+Current Issues in Philosophical Psychology
+Moral Philosophy and the Brain
+Happiness and the Good Life
+Human Nature and Society
+Selected Topics in Philosophy of Science
+Selected Topics in the History of Science and Technology
+Bioethics
+The Evolution of Cognition
+Right and Wrong
+Knowledge and Reality
+Philosophy and Gender
+Meaning in Life
+Philosophy Through Science Fiction
+Selected Topics in Humanities
+Frontiers in the Humanities
+Topics in French Culture and Literature
+Spanish and Latin American Literature
+French Literature in Translation: Classical and Modern
+Spanish and Latin American Literature in Translation
+Advanced Chinese II: Topics in Chinese Literature
+Introduction to Information and Data Systems Research
+Undergraduate Reading in the Information and Data Sciences
+Undergraduate Projects in Information and Data Sciences
+Undergraduate thesis in the Information and Data Sciences
+Information and Logic
+L 105 a and L 105 b taught 
+in alternate years
+Introduction to French Cinema from Its Beginning to the 
+Present
+Prerequisites: 
+L 112 abc or equivalent
+Prerequisites: 
+instructor’s permission
+Causation and Responsibility
+Senior thesis
+Materials Science Laboratory
+Advanced Work in Materials Science
+Materials Research Lectures
+Fundamentals of Materials Science
+An introduction to the structure and properties of 
+materials and the processing routes utilized to optimize properties
+Mechanical Behavior of Materials
+Laboratory Research Methods in Materials Science
+Instructor: Ahn
+Advanced Transmission Electron Microscopy
+Diffraction contrast analysis of crystalline 
+defects
+Structure and Bonding in Materials
+Diffraction and Structure
+Kinetic Processes in Materials
+Application of Diffraction Techniques in Materials Science
+Topics in Materials Science
+Imperfections in Crystals
+The relation of lattice defects to 
+the physical and mechanical properties of crystalline solids
+Fracture of Brittle Solids
+Micromechanics
+Calculus of One and Several Variables and Linear Algebra
+a sequence. These students will not learn series in Ma 1 a 
+and will be required to take Ma 1 d
+Series
+It may not be taken 
+by students who have passed the regular Ma 1 a
+Randomness is not anarchy-it follows 
+mathematical laws that we can understand and use to clarify our knowledge 
+of the universe
+Problem Solving in Calculus
+A three-hour per week hands-on class 
+for those students in Ma 1 needing extra practice in problem solving in 
+calculus
+Mathematical Writing
+The Mathematics of Enzyme Kinetics
+Problem Solving in Vector Calculus
+How to Solve It
+Frontiers in Mathematics
+Research in Mathematics
+Independent Reading
+Classical Analysis
+Introduction to Geometry and Topology
+Analysis
+Topics in Analysis
+Statistics
+Mathematical Logic and Axiomatic Set Theory
+Topics in Mathematical Logic: Geometrical Paradoxes
+Abstract Algebra
+Combinatorial Analysis
+Classification of Simple Lie Algebras
+or equivalent. This course is an introduction to Lie 
+algebras and the classification of the simple Lie algebras over the complex 
+numbers
+Elliptic Curves
+Algebraic Curves
+
+An elementary introduction to the theory of algebraic curves
+Homological Algebra
+Algebraic Geometry
+Topics in Algebraic Geometry
+Arithmetic Geometry
+The course deals with aspects of algebraic geometry that have 
+been found useful for number theoretic applications
+b is strongly recommended. Overview of measure theory
+Representation Theory
+Dynamical Systems
+Topics in Mathematical Physics
+Algebraic and Differential Topology
+abc or equivalent. A basic graduate core 
+course
+Riemannian Geometry
+Number Theory
+Topics in Number Theory
+Selected Topics in Mathematics
+Mathematical Finance
+Reading
+Research
+Thinking Like an Engineer
+Thermal Science
+Mechanics
+Design and Fabrication
+Enrollment is limited and is based on responses to a question-
+naire available in the Registrar’s office
+Experiments and Modeling in Mechanical Engineering
+Engineering Design Laboratory
+Enrollment is limited
+Independent Studies in Mechanical Engineering
+Energy technologies and 
+the impact of government policy
+Special Laboratory Work in Mechanical Engineering
+Introduction to Kinematics and Robotics
+Heat and Mass Transfer
+Mechanics and Rheology of Fluid-Infiltrated Porous 
+Media
+This course will focus on the physics of porous materials 
+(e
+Advanced Work in Mechanical Engineering
+Advanced Topics in Mechanical Engineering
+Engineering Two-Phase Flows
+Research in Mechanical Engineering
+ Undergraduate Research in Medical Engineering
+Medical Engineering Seminar
+Introduction to Clinical Physiology and Pathophysiology for 
+Engineers
+Analog Circuits Design
+Micro-/Nano-scales Electro-optics
+ Special Topics in Medical Engineering
+Principles and Design of Medical Devices
+Sensors in Medicine
+New Frontiers in Medical Technologies
+ Biological Flows: Transport and Circulatory 
+Systems
+Research in Medical Engineering
+Understanding Music
+Jazz History
+Fundamentals of Music Theory and Elementary Ear Training
+Harmony I
+Harmony II
+History I: Music History to 1750
+History II: Music History from 1750 to 1850
+History III: Music History from 1850 to the Present
+Guitar
+Chamber Music
+Symphony Orchestra
+Wind Orchestra
+Jazz Band/Jazz Improvisation
+Glee Club
+Chamber Singers
+Theater Production
+Storytelling for Scientists
+Improvisation for Scientists
+Silkscreen and Silk Painting
+Drawing and Painting
+Ceramics
+Meaning In Life
+Reading in Philosophy
+Free Will
+Selected Topics in Philosophy
+Moral Philosophy
+Student Designed Fitness
+Healthier Living
+Hiking
+Introduction to Power Walking
+Beginning Running
+Soccer
+Aerobic Dance
+Rollerblading
+Ultimate Frisbee
+Flying Saucers
+Outdoor Lawn Games
+Indoor/Outdoor Cycling
+Beginning Triathlon Training
+Beginning Kayaking
+Water Polo
+Beginning Self Defense
+Advanced Techniques of Human Performance
+Bouldering
+Intercollegiate Track and Field Teams
+Intercollegiate Swimming and Diving Teams
+Intercollegiate Fencing Teams
+Intercollegiate Water Polo Teams
+Intercollegiate Basketball Teams
+Intercollegiate Soccer Teams
+Intercollegiate Baseball Team
+Intercollegiate Tennis Teams
+Intercollegiate Cross-Country Teams
+Intercollegiate Volleyball Team
+Classical Mechanics and Electromagnetism
+bc concurrently. 
+Students will be given information helping them to choose a track at the 
+end of fall term
+An intro-
+duction to several areas of physics including applications in modern science 
+and engineering
+Introductory Physics Laboratory
+Analog Electronics for Physicists
+Physics Laboratory
+Experiments in Electromagnetism
+A two-term sequence of experiments that paral-
+lel the material of Ph 1 bc
+Frontiers in Physics
+Research Tutorial
+Computational Physics Laboratory I
+or equivalent. Introduction to the tools of sci-
+entific computing
+Computational Physics Laboratory II
+or equivalent experience with programming. Com-
+putational tools for data analysis
+Computational Physics Laboratory III
+Caltech Physics League
+Oral and Written Communication
+Advanced Physics Laboratory
+Order-of-Magnitude Physics
+Topics in Classical Physics
+An intermediate course in 
+the application of basic principles of classical physics to a wide variety of 
+subjects
+Physics of Momentum Transport in Hydrodynamic Sys-
+tems
+Computational Physics Lab
+Quantum Mechanics
+Statistical Physics
+Mathematical Methods of Physics
+Introduction to Condensed Matter
+ab in second and third terms. Instructors: Refael
+Applications of Classical Physics
+Atoms and Photons
+Introduction to High Energy Physics
+Research in Physics
+Advanced Experimental Physics
+Frontiers of Fundamental Physics
+Candidacy Physics Fitness
+Relativistic Quantum Field Theory
+Introduction to the Standard Model
+abc or equivalent. The theory of quantum informa-
+tion and quantum computation
+Advanced Mathematical Methods of Physics
+Elementary Particle Theory
+abc or equivalent. Advanced methods in quantum field 
+theory
+Relativity
+Gravitational Waves
+b or equivalents. Special topics in Gravitational-wave Detec-
+tion
+Physics Seminar
+Introduction to String Theory
+or equivalent. The first two terms will focus 
+largely on the bosonic string
+Introduction to Political Science
+Political-Economic Development and Material Culture
+Political Science Research Seminar
+Selected Topics in Political Science
+American Electoral Behavior and Party Strategy
+Analyzing Congress
+Political Representation
+Why does the U
+Regulation and Politics
+This course will examine the historical origins of several regulatory 
+agencies and trace their development over the past century or so
+Analyzing Political Conflict and Violence
+Introduction to Social Science Surveys: Methods and Practice
+Formal Theories in Political Science
+Axiomatic structure and behavioral 
+interpretations of game theoretic and social choice models and models of 
+political processes based on them
+Analyzing Legislative Elections
+Comparative Politics
+The politics of non-American political systems with an emphasis on 
+their electoral systems and methodologies for assessing their compliance 
+with democratic standards
+A History of Budgetary Politics in the United States
+Introduction to Cognitive Neuroscience
+Reading and Research in Psychology
+Applied Neuropsychology of Learning
+Selected Topics in Psychology
+Social Psychology
+Graduate Proseminar in Social and Decision Neurosci-
+ence
+Reading in Social Science
+Selected Topics in Social Science
+Economic History of Europe from the Middle Ages to the 
+Twentieth Century
+ Analytical Foundations of Social Science
+Political Theory
+Foundations of Economics
+Behavioral Economics
+Foundations of Political Economy
+Advanced Economic Theory
+Financial Economics
+Asset Pricing Theory
+This course 
+is designed to get students familiar with modern research in asset pricing 
+theory
+Interdisciplinary Studies in Law and Social Policy
+Advanced Behavioral Finance
+Neuroscience Applications to Economics and Politics
+Advanced Topics in Econometric Theory
+Social Science Data
+Experimetrics
+Applied Empirical Methods in the Social Sciences
+Theoretical and Quantitative Dimensions of Historical 
+Development
+American Politics
+Historical and Comparative Perspectives in Political Analy-
+sis
+Techniques of Policy Research
+This is a graduate-level seminar covering recent topics at the 
+intersection of computer science and economics
+Experimental Methods of Political Economy
+Graduate Social Science Writing Seminar
+Graduate Proseminar in Social Science
+Writing
+Research in Social Science
+Student Publications
+Cooking Basics
+Student-Taught Courses
+Health Advocates
+Peer Advocates
+Introduction to Academic Writing for Multilingual Writers
+Introduction to Academic Writing
+Reading and Composing Academic Writing
+Principles and Practices of Academic Writing
+Instructor: Hall 
+Wr 50
