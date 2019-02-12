@@ -1,0 +1,94 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }
+      #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+  <!--script src="jquery.min.js"></script>-->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Include the following on the popup</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Username</td>
+          <td>
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id = "username">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Password</td>
+          <td>
+            <div class="input-group">
+              <input type="password" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id = "pw">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Description of Class</td>
+          <td>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <input type="checkbox" aria-label="Checkbox for following text input" id = "description_of_class">
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Number of Comments</td>
+        <td>
+          <div class="input-group">
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" id="comments">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Class ratings</td>
+        <td>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <input type="checkbox" aria-label="Checkbox for following text input" id = 'ratings'>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+    <input type="submit" value="Save" id ="saving">
+    <script type="text/javascript" src="js/background.js"></script>
+  </body>
+</html>
