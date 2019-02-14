@@ -1,30 +1,25 @@
-var number_of_comments = 5;
-var description_of_class = false;
-var class_rating = false;
-var username = "nope";
-var password = "nope";
-function toggle(toggled_type) {
-  if (toggled_type === 'description')
-  {
-    description_of_class = !description_of_class;
-  }
-  if (toggled_type === 'class_rating')
-  {
-    class_rating = !class_rating;
-  }
-}
-document.querySelector('#saving').addEventListener("click", function(){
+var username = "";
+var password = "";
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    console.log(sender.tab ?
+                "from a content script:" + sender.tab.url :
+                "from the extension");
+    if (request.username !== null){
+      username = request.username;
+      password = request.password;
+      sendResponse({farewell: "yay"});
+    }
+    console.log("????");
+  });
 
-  class_rating = document.getElementById('ratings').checked;
-  description_of_class = document.getElementById('description_of_class').checked;
-  username = document.getElementById('username').value;
-  password = document.getElementById('pw').value;
-  number_of_comments = document.getElementById('comments').value;
-
-  chrome.storage.local.set({description_of_class: description_of_class}, function () {});
-  chrome.storage.local.set({ratings: class_rating}, function () {});
-  chrome.storage.local.set({comments: number_of_comments}, function () {});
+chrome.omnibox.onInputEntered.addListener(function(data) {
+  console.log(data);
+  var newURL = 'https://www.google.com/search?q=' + encodeURIComponent(data);
+  chrome.tabs.create({ url: newURL });
+  get_data(data);
 });
+
 
 function get_data(clas) {
   $.ajax({
@@ -36,7 +31,7 @@ function get_data(clas) {
       if (data !== "")
       {
         parser = new DOMParser();
-        doc = parser.parseFromString(data, "text/html");
+        var doc = parser.parseFromString(data, "text/html");
 
       }
       if (doc.getElementById('lt') === null)
@@ -47,9 +42,19 @@ function get_data(clas) {
           data: {
             "search": "Bem 103"
           },
-          success: function(data)
+          success: function(data_link)
           {
-            console.log(data);
+            doc = parser.parseFromString(data_link, "text/html");
+            var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
+            $.ajax({
+              type: "GET",
+              url: link,
+              success: function(data_link_content)
+              {
+                return parse_data(data_link_content);
+              }
+            });
+
           }
         });
       }
@@ -59,8 +64,8 @@ function get_data(clas) {
           type: "POST",
           url: 'https://access.caltech.edu/auth/login_handler?came_from=https://access.caltech.edu/home/home.s&login_counter=0',
           data: {
-            "login": login,
-            "password":pw,
+            "login": username,
+            "password":password,
             "lt" :lts,
             "Sign In": "Sign In >"
           },
@@ -72,9 +77,18 @@ function get_data(clas) {
               data: {
                 "search": "Bem 103"
               },
-              success: function(data)
+              success: function(data_link)
               {
-                console.log(data);
+                doc = parser.parseFromString(data_link, "text/html");
+                var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
+                $.ajax({
+                  type: "GET",
+                  url: link,
+                  success: function(data_link_content)
+                  {
+                    return parse_data(data_link_content);
+                  }
+                });
               }
             });
           }
@@ -84,36 +98,41 @@ function get_data(clas) {
   });
 }
 
-window.onload = function() {
-  chrome.storage.local.get('ratings', function (result) {
-    if(result.ratings !== undefined)
-    {
-      document.getElementById('ratings').checked = result.ratings;
+function parse_data(data_link_content)
+{
+  results = {}
+  var doc = parser.parseFromString(data_link_content, "text/html");
+  if (number_of_comments > 0)
+  {
+    results['comments'] = [];
+    var comment_table = doc.getElementsByClassName("tablediv comment-table");
+    for (i = 0; i < number_of_comments; i++) {
+      if (comment_table[0].rows.length <= i)
+      {
+        break;
+      }
+      results['comments'].push(comment_table[0].rows[i].cells[0].innerHTML);
     }
-    else {
-      chrome.storage.local.set({ratings: class_rating}, function () {});
-    }
-  });
+  }
 
-  chrome.storage.local.get('description_of_class', function (result) {
-    if(result.description_of_class !== undefined)
-    {
-      document.getElementById('description_of_class').checked = result.description_of_class;
-    }
-    else {
-      chrome.storage.local.set({description_of_class: description_of_class}, function () {});
-    }
-  });
+  if (class_rating)
+  {
+    results['class_rating'] = parse_table(doc.getElementsByClassName("survey_report"), "Overall Ratings");
+  }
+  console.log(results);
+  //var comment_table = doc.getElementsByClassName("tablediv comment-table");
+}
 
-  chrome.storage.local.get('comments', function (result) {
-    if(result.comments !== undefined)
+function parse_table(all_titles, table_name)
+{
+  var correct_table;
+  for (i = 0; i<all_titles.length; i++)
+  {
+
+    if (all_titles[i].innerHTML === table_name)
     {
-      document.getElementById('comments').value = result.comments;
+      correct_table = all_titles[i].nextSibling.nextElementSibling;
     }
-    else {
-      chrome.storage.local.set({comments: number_of_comments}, function () {});
-    }
-  });
-  document.getElementById('username').value = username;
-  document.getElementById('pw').value = password;
-};
+  }
+  return correct_table;
+}

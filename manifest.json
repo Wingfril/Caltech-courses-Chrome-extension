@@ -4,14 +4,19 @@
   "name": "Easy TQFR",
   "description": "This extension runs Python code.",
   "version": "1.0",
-
+  "omnibox": { "keyword" : "tqfr" },
+  "icons": {
+    "16": "icon.png"
+  },"externally_connectable": {
+  "matches": ["chrome-extension://heidjakpbaicnhiacpmihjhocohniphf/options.html"]
+  },
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
   "background": {
-  "scripts": [ "js/jquery-3.3.1.min.js", "js/popper.min.js", "js/bootstrap.min.js"],
-  "persistent": false
+    "scripts": [ "js/jquery-3.3.1.min.js", "js/popper.min.js", "js/bootstrap.min.js", "js/background.js"],
+    "persistent": false
   },
   "options_page": "options.html",
   "permissions": [

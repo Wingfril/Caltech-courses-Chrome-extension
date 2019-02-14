@@ -1,17 +1,13 @@
-chrome.extension.onRequest.addListener(function(request, sender, sendResponse) {
-    if (request.method == "getSelection")
-      sendResponse({data: window.getSelection().toString()});
-    else
-      sendResponse({}); // snub them.
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    //if (request.method == "getSelection")
+      //sendResponse({data: window.getSelection().toString()});
+    //else
+      //sendResponse({}); // snub them.
 });
-
 
 function isTextSelected() {
         var myText = window.getSelection().toString();
         console.log(myText);
-    }
 }
 
-console.log("AHHH");
-//In my on firefox load function I added this
-document.onmouseup = isTextSelected();
+document.addEventListener("mouseup", isTextSelected);
