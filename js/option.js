@@ -31,12 +31,57 @@ document.querySelector('#saving').addEventListener("click", function(){
 
 window.onload = function() {
   chrome.storage.local.get('Cratings', function (result) {
-    if(result.ratings !== undefined)
+    if(result.Cratings !== undefined)
     {
-      document.getElementById('Course: Overall Ratings').checked = result.ratings;
+      document.getElementById('Course: Overall Ratings').checked = result.Cratings;
     }
     else {
-      chrome.storage.local.set({Cratings: class_rating}, function () {});
+      chrome.storage.local.set({Cratings: true}, function () {});
+      document.getElementById('Course: Overall Ratings').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('Pratings', function (result) {
+    if(result.Pratings !== undefined)
+    {
+      document.getElementById('Prof: Overall Ratings').checked = result.Pratings;
+    }
+    else {
+      chrome.storage.local.set({Pratings: true}, function () {});
+      document.getElementById('Prof: Overall Ratingss').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('lectures', function (result) {
+    if(result.lectures !== undefined)
+    {
+      document.getElementById('Lectures attended').checked = result.lectures;
+    }
+    else {
+      chrome.storage.local.set({lectures: true}, function () {});
+      document.getElementById('Lectures attended').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('lectures', function (result) {
+    if(result.lectures !== undefined)
+    {
+      document.getElementById('Lectures attended').checked = result.lectures;
+    }
+    else {
+      chrome.storage.local.set({lectures: true}, function () {});
+      document.getElementById('Lectures attended').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('grades', function (result) {
+    if(result.grades !== undefined)
+    {
+      document.getElementById('Grade distribution').checked = result.grades;
+    }
+    else {
+      chrome.storage.local.set({grades: true}, function () {});
+      document.getElementById('Grade distribution').checked = true;
     }
   });
 
