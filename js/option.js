@@ -15,6 +15,7 @@ document.querySelector('#saving').addEventListener("click", function(){
   username = document.getElementById('username').value;
   password = document.getElementById('pw').value;
   number_of_comments = document.getElementById('comments').value;
+  reasons = document.getElementById('Reasons').checked;
   //Grade distribution
   chrome.runtime.sendMessage(editorExtensionId, {username: username, password: password},
     function(response) {
@@ -23,14 +24,27 @@ document.querySelector('#saving').addEventListener("click", function(){
       if (!response.success)
         handleError(url);
     });
+  console.log(class_rating);
+  chrome.storage.local.set({description_of_class: description_of_class}, function () {
 
-  chrome.storage.local.set({description_of_class: description_of_class}, function () {});
+    chrome.storage.local.get("description_of_class", function (value) {
+      console.log(value); // 1
+});
+  });
   chrome.storage.local.set({ratings: class_rating}, function () {});
   chrome.storage.local.set({comments: number_of_comments}, function () {});
+  chrome.storage.local.set({reasons: reasons}, function () {
+    chrome.storage.local.get("reasons", function (value) {
+      console.log(value); // 1
+});
+
+  });
+  alert("Settings saved");
 });
 
 window.onload = function() {
   chrome.storage.local.get('Cratings', function (result) {
+    console.log(result);
     if(result.Cratings !== undefined)
     {
       document.getElementById('Course: Overall Ratings').checked = result.Cratings;
@@ -82,6 +96,30 @@ window.onload = function() {
     else {
       chrome.storage.local.set({grades: true}, function () {});
       document.getElementById('Grade distribution').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('reasons', function (result) {
+    console.log(result);
+    if(result.reasons !== undefined)
+    {
+      document.getElementById('Reasons').checked = result.reasons;
+    }
+    else {
+      chrome.storage.local.set({reasons: true}, function () {});
+      document.getElementById('Reasons').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('description_of_class', function (result) {
+    console.log(result);
+
+    if(result.description_of_class !== undefined)
+    {
+      document.getElementById('description_of_class').checked = result.description_of_class;
+    }
+    else {
+      chrome.storage.local.set({description_of_class: description_of_class}, function () {});
     }
   });
 
