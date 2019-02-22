@@ -18,7 +18,6 @@ chrome.omnibox.onInputEntered.addListener(function(data) {
   get_data(data);
 });
 
-
 function get_data(clas) {
   $.ajax({
     type: "GET",
@@ -58,6 +57,8 @@ function get_data(clas) {
       }
       else {
         var lts = doc.getElementById('lt').value;
+        console.log(username);
+        //console.log(password);
         $.ajax({
           type: "POST",
           url: 'https://access.caltech.edu/auth/login_handler?came_from=https://access.caltech.edu/home/home.s&login_counter=0',
@@ -78,6 +79,7 @@ function get_data(clas) {
               success: function(data_link)
               {
                 doc = parser.parseFromString(data_link, "text/html");
+                console.log(doc);
                 var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
                 $.ajax({
                   type: "GET",
@@ -177,8 +179,5 @@ function parse_table(all_titles, table_name, needed_name)
 
 function show_everything([doc, results])
 {
-  //return new Promise(function(resolve, reject) {
     console.log(results);
-  //  resolve(results);
-  //});
 }
