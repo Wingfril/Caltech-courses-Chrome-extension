@@ -69,7 +69,7 @@ window.onload = function() {
   chrome.storage.local.get('comments', function (result) {
     if(result.comments !== undefined)
     {
-      document.getElementById('comments').value = result.comments;
+      document.getElementById('Comments').value = result.comments;
     }
     else {
       chrome.storage.local.set({comments: number_of_comments}, function () {});
