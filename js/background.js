@@ -13,6 +13,17 @@ chrome.runtime.onMessage.addListener(
     }
   });
 
+chrome.runtime.onMessage.addListener(
+  function(request, sender, sendResponse) {
+    console.log(sender.tab ?
+                "from a content script:" + sender.tab.url :
+                "from the extension");
+    if (request.class_name == "bem 103")
+      console.log("woooo we did it guys");
+      get_data(request.class_name);
+      sendResponse({farewell: "goodbye"});
+  });
+
 chrome.omnibox.onInputEntered.addListener(function(data) {
   console.log(data);
   get_data(data);
