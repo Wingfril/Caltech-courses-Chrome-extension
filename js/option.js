@@ -6,7 +6,7 @@ var password = "nope";
 
 
 // The ID of the extension we want to talk to.
-var editorExtensionId = "heidjakpbaicnhiacpmihjhocohniphf";
+var editorExtensionId = chrome.runtime.id;
 
 document.querySelector('#saving').addEventListener("click", function(){
 

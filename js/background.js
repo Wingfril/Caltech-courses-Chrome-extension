@@ -38,7 +38,7 @@ function get_data(clas) {
           type: "POST",
           url: 'https://access.caltech.edu/tqfr/reports/search',
           data: {
-            "search": "Bem 103"
+            "search": clas
           },
           success: function(data_link)
           {
@@ -73,7 +73,7 @@ function get_data(clas) {
               type: "POST",
               url: 'https://access.caltech.edu/tqfr/reports/search',
               data: {
-                "search": "Bem 103"
+                "search": clas
               },
               success: function(data_link)
               {
