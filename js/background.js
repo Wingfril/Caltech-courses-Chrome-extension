@@ -18,11 +18,57 @@ chrome.runtime.onMessage.addListener(
     console.log(sender.tab ?
                 "from a content script:" + sender.tab.url :
                 "from the extension");
-    if (request.class_name == "bem 103")
+    if (request.class_name == "bem 103") {
       console.log("woooo we did it guys");
-      get_data(request.class_name);
+
+      isValidClass(request.class_name);
+        
       sendResponse({farewell: "goodbye"});
+    }
   });
+
+// read from a text file by creating a new XMLHTTP Request
+function isValidClass(clas) {
+    file = "../other/all_classes.txt";
+
+    let txt = '';
+    let xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function(){
+        if (xmlhttp.status == 200 && xmlhttp.readyState == 4){
+                txt = xmlhttp.responseText;
+                data = txt.split("\n");
+
+                parsed_data = [];
+                // decompose things with a "/" into seperate elements
+                for (var i = 0; i < data.length; ++i)
+                {
+                  if (data[i].includes("/")) {
+                    arr = data[i].split(" ");
+                    number = arr[1];
+                    options = arr[0].split("/");
+                    for (var j = 0; j < options.length; ++j) {
+                      parsed_data.push(options[j].toLowerCase() + " " + number);
+                    }
+                  }
+                  else {
+                    parsed_data.push(data[i].toLowerCase());
+                  }
+                }
+                console.log("Contents of file: " + parsed_data);
+                console.log(parsed_data.includes(clas))
+                if (parsed_data.includes(clas.toLowerCase())) {
+                  console.log("do not worry child");
+                  get_data(clas);
+                }
+                else {
+                  console.log("Invalid class! You really suck man!")
+                }
+            }
+    };
+    xmlhttp.open("GET", file, true);
+    xmlhttp.send();
+    console.log("made it to the end of get text file");
+}
 
 chrome.omnibox.onInputEntered.addListener(function(data) {
   console.log(data);
@@ -69,7 +115,6 @@ function get_data(clas) {
       else {
         var lts = doc.getElementById('lt').value;
         console.log(username);
-        //console.log(password);
         $.ajax({
           type: "POST",
           url: 'https://access.caltech.edu/auth/login_handler?came_from=https://access.caltech.edu/home/home.s&login_counter=0',
@@ -191,4 +236,5 @@ function parse_table(all_titles, table_name, needed_name)
 function show_everything([doc, results])
 {
     console.log(results);
+    console.log("you've managed not to mess anything up, congrats!")
 }

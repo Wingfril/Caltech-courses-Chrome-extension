@@ -8,11 +8,7 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
 function isTextSelected() {
         var clas = window.getSelection().toString();
         console.log(clas);
-
-        // eventually check if the string is a valid class before passing it
-
         clas = "bem 103";
-
         chrome.runtime.sendMessage({class_name: clas}, function(response) {
   		console.log(response.farewell);
 });
