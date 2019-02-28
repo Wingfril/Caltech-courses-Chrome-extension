@@ -11,11 +11,18 @@ var editorExtensionId = chrome.runtime.id;
 document.querySelector('#saving').addEventListener("click", function(){
 
   class_rating = document.getElementById('Course: Overall Ratings').checked;
+  pro_ratings = document.getElementById('Prof: Overall Ratings').checked;
+
   description_of_class = document.getElementById('description_of_class').checked;
   username = document.getElementById('username').value;
   password = document.getElementById('pw').value;
-  number_of_comments = document.getElementById('comments').value;
+  number_of_comments = document.getElementById('Comments').value;
   reasons = document.getElementById('Reasons').checked;
+  grades = document.getElementById('Grade distribution').checked;
+  lectures = document.getElementById('Lectures attended').checked;
+  amount = document.getElementById('Amount of work').checked;
+  hours = document.getElementById('Hours').checked;
+
   //Grade distribution
   chrome.runtime.sendMessage(editorExtensionId, {username: username, password: password},
     function(response) {
@@ -24,25 +31,29 @@ document.querySelector('#saving').addEventListener("click", function(){
       if (!response.success)
         handleError(url);
     });
-  console.log(class_rating);
-  chrome.storage.local.set({description_of_class: description_of_class}, function () {
 
-    chrome.storage.local.get("description_of_class", function (value) {
-      console.log(value); // 1
-});
-  });
-  chrome.storage.local.set({ratings: class_rating}, function () {});
+
+  chrome.storage.local.set({Cratings: class_rating}, function () {});
   chrome.storage.local.set({comments: number_of_comments}, function () {});
-  chrome.storage.local.set({reasons: reasons}, function () {
-    chrome.storage.local.get("reasons", function (value) {
-      console.log(value); // 1
-});
+  chrome.storage.local.set({description_of_class: description_of_class}, function () {  });
+  chrome.storage.local.set({grades: grades}, function () {});
+  chrome.storage.local.set({lectures: lectures}, function () {});
+  chrome.storage.local.set({Pratings: pro_ratings}, function () {});
+  chrome.storage.local.set({reasons: reasons}, function () {});
+  chrome.storage.local.set({hours: hours}, function () {});
 
-  });
+  chrome.storage.local.set({amount: amount}, function () {});
+
   alert("Settings saved");
 });
 
+function handleError(url)
+{
+  alert("Some internal erro occurred; the username and pw were not set");
+}
+
 window.onload = function() {
+
   chrome.storage.local.get('Cratings', function (result) {
     console.log(result);
     if(result.Cratings !== undefined)
@@ -55,36 +66,25 @@ window.onload = function() {
     }
   });
 
-  chrome.storage.local.get('Pratings', function (result) {
-    if(result.Pratings !== undefined)
+  chrome.storage.local.get('comments', function (result) {
+    if(result.comments !== undefined)
     {
-      document.getElementById('Prof: Overall Ratings').checked = result.Pratings;
+      document.getElementById('Comments').value = result.comments;
     }
     else {
-      chrome.storage.local.set({Pratings: true}, function () {});
-      document.getElementById('Prof: Overall Ratingss').checked = true;
+      chrome.storage.local.set({comments: number_of_comments}, function () {});
     }
   });
 
-  chrome.storage.local.get('lectures', function (result) {
-    if(result.lectures !== undefined)
-    {
-      document.getElementById('Lectures attended').checked = result.lectures;
-    }
-    else {
-      chrome.storage.local.set({lectures: true}, function () {});
-      document.getElementById('Lectures attended').checked = true;
-    }
-  });
+  chrome.storage.local.get('description_of_class', function (result) {
+    console.log(result);
 
-  chrome.storage.local.get('lectures', function (result) {
-    if(result.lectures !== undefined)
+    if(result.description_of_class !== undefined)
     {
-      document.getElementById('Lectures attended').checked = result.lectures;
+      document.getElementById('description_of_class').checked = result.description_of_class;
     }
     else {
-      chrome.storage.local.set({lectures: true}, function () {});
-      document.getElementById('Lectures attended').checked = true;
+      chrome.storage.local.set({description_of_class: description_of_class}, function () {});
     }
   });
 
@@ -99,8 +99,51 @@ window.onload = function() {
     }
   });
 
+  chrome.storage.local.get('hours', function (result) {
+    if(result.hours !== undefined)
+    {
+      document.getElementById('Hours').checked = result.hours;
+    }
+    else {
+      chrome.storage.local.set({hours: true}, function () {});
+      document.getElementById('Hours').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('lectures', function (result) {
+    if(result.lectures !== undefined)
+    {
+      document.getElementById('Lectures attended').checked = result.lectures;
+    }
+    else {
+      chrome.storage.local.set({lectures: true}, function () {});
+      document.getElementById('Lectures attended').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('Pratings', function (result) {
+    if(result.Pratings !== undefined)
+    {
+      document.getElementById('Prof: Overall Ratings').checked = result.Pratings;
+    }
+    else {
+      chrome.storage.local.set({Pratings: true}, function () {});
+      document.getElementById('Prof: Overall Ratingss').checked = true;
+    }
+  });
+
+  chrome.storage.local.get('amount', function (result) {
+    if(result.amount !== undefined)
+    {
+      document.getElementById('Amount of work').checked = result.amount;
+    }
+    else {
+      chrome.storage.local.set({amount: true}, function () {});
+      document.getElementById('Amount of work').checked = true;
+    }
+  });
+
   chrome.storage.local.get('reasons', function (result) {
-    console.log(result);
     if(result.reasons !== undefined)
     {
       document.getElementById('Reasons').checked = result.reasons;
@@ -111,37 +154,6 @@ window.onload = function() {
     }
   });
 
-  chrome.storage.local.get('description_of_class', function (result) {
-    console.log(result);
-
-    if(result.description_of_class !== undefined)
-    {
-      document.getElementById('description_of_class').checked = result.description_of_class;
-    }
-    else {
-      chrome.storage.local.set({description_of_class: description_of_class}, function () {});
-    }
-  });
-
-  chrome.storage.local.get('description_of_class', function (result) {
-    if(result.description_of_class !== undefined)
-    {
-      document.getElementById('description_of_class').checked = result.description_of_class;
-    }
-    else {
-      chrome.storage.local.set({description_of_class: description_of_class}, function () {});
-    }
-  });
-
-  chrome.storage.local.get('comments', function (result) {
-    if(result.comments !== undefined)
-    {
-      document.getElementById('comments').value = result.comments;
-    }
-    else {
-      chrome.storage.local.set({comments: number_of_comments}, function () {});
-    }
-  });
   document.getElementById('username').value = username;
   document.getElementById('pw').value = password;
 };

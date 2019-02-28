@@ -22,7 +22,7 @@ chrome.runtime.onMessage.addListener(
       console.log("woooo we did it guys");
 
       isValidClass(request.class_name);
-        
+
       sendResponse({farewell: "goodbye"});
     }
   });
@@ -99,16 +99,21 @@ function get_data(clas) {
           success: function(data_link)
           {
             doc = parser.parseFromString(data_link, "text/html");
-            var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
-            $.ajax({
-              type: "GET",
-              url: link,
-              success: function(data_link_content)
-              {
-                return parse_data(data_link_content);
-              }
-            });
-
+            if(doc.title == "TQFR Reports: Search Results" &&
+          doc.getElementsByClassName("tablediv")[0].rows[1]!= undefined)
+            {
+              doc = parser.parseFromString(data_link, "text/html");
+              console.log(doc);
+              var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
+              $.ajax({
+                type: "GET",
+                url: link,
+                success: function(data_link_content)
+                {
+                  return parse_data(data_link_content);
+                }
+              });
+            }
           }
         });
       }
@@ -135,16 +140,21 @@ function get_data(clas) {
               success: function(data_link)
               {
                 doc = parser.parseFromString(data_link, "text/html");
-                console.log(doc);
-                var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
-                $.ajax({
-                  type: "GET",
-                  url: link,
-                  success: function(data_link_content)
-                  {
-                    return parse_data(data_link_content);
-                  }
-                });
+                if(doc.title == "TQFR Reports: Search Results" &&
+              doc.getElementsByClassName("tablediv")[0].rows[1]!= undefined)
+                {
+                  doc = parser.parseFromString(data_link, "text/html");
+                  console.log(doc);
+                  var link = "https://access.caltech.edu" + doc.getElementsByClassName("tablediv")[0].rows[1].cells[0].getElementsByTagName("a")[0].getAttribute("href");
+                  $.ajax({
+                    type: "GET",
+                    url: link,
+                    success: function(data_link_content)
+                    {
+                      return parse_data(data_link_content);
+                    }
+                  });
+                }
               }
             });
           }
@@ -156,7 +166,12 @@ function get_data(clas) {
 
 function parse_data(data_link_content)
 {
-return get_comments(data_link_content).then(get_Cratings).then(get_Pratings).then(show_everything);
+return get_comments(data_link_content)
+.then(get_Cratings).then(get_Pratings)
+.then(get_title).then(get_Reasons)
+.then(get_Grades).then(get_Hours)
+.then(get_Work).then(get_Lectures)
+.then(show_everything);
 }
 
 function get_comments(data_link_content)
@@ -182,8 +197,17 @@ function get_comments(data_link_content)
           }
         }
       }
-      //get_Cratings(doc, results)
     });
+    resolve([doc, results]);
+  });
+}
+
+function get_title([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    results['Class number'] = doc.getElementsByClassName("survey_title clearfix")[0].innerHTML;
+    results['Class name'] = doc.getElementsByClassName("offering_title")[0].innerHTML;
+    console.log(doc.getElementsByClassName("survey_title clearfix"));
     resolve([doc, results]);
   });
 }
@@ -194,7 +218,73 @@ function get_Cratings([doc, results])
     chrome.storage.local.get('Cratings', function (result) {
       if(result.Cratings !== undefined && result.Cratings === true)
       {
-        results['class_rating'] = parse_table(doc.getElementsByClassName("survey_report"), "Overall Ratings","class_rating");
+        results['class_rating'] = parse_table(doc.getElementsByClassName("survey_report"), "Overall Ratings", "class_rating");
+      }
+    });
+    resolve([doc, results]);
+  });
+}
+
+function get_Grades([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    chrome.storage.local.get('grades', function (result) {
+      if(result.grades !== undefined && result.grades === true)
+      {
+        results['Grades'] = parse_table(doc.getElementsByClassName("survey_report"), "Expected Grade", "");
+      }
+    });
+    resolve([doc, results]);
+  });
+}
+
+function get_Lectures([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    chrome.storage.local.get('lectures', function (result) {
+      if(result.lectures !== undefined && result.lectures === true)
+      {
+        results['Lectures'] = parse_table(doc.getElementsByClassName("survey_report"), "% Of Lectures Attended", "");
+      }
+    });
+    resolve([doc, results]);
+  });
+}
+
+function get_Work([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    chrome.storage.local.get('amount', function (result) {
+      if(result.amount !== undefined && result.amount === true)
+      {
+        results['Amount'] = parse_table(doc.getElementsByClassName("survey_report"), "Was The Amount Of Work Required Higher Or Lower Than The Units Listed In The Catalog?", "");
+      }
+    });
+    resolve([doc, results]);
+  });
+}
+
+function get_Hours([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    chrome.storage.local.get('hours', function (result) {
+      if(result.hours !== undefined && result.hours === true)
+      {
+        results['Hours'] = parse_table(doc.getElementsByClassName("survey_report"), "Hours/Week Spent On Coursework Outside Of Class", "");
+      }
+    });
+    resolve([doc, results]);
+  });
+}
+
+
+function get_Reasons([doc, results])
+{
+  return new Promise(function(resolve, reject) {
+    chrome.storage.local.get('reasons', function (result) {
+      if(result.reasons !== undefined && result.reasons === true)
+      {
+        results['Reasons'] = parse_table(doc.getElementsByClassName("survey_report"), "Reason For Taking Course", "");
       }
     });
     resolve([doc, results]);
